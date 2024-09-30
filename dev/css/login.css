@@ -1,0 +1,170 @@
+.open_login {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 5;
+  position: absolute;
+}
+
+.lg_table {
+  z-index: 6;
+  position: relative;
+}
+
+.lg_table img {
+  cursor: url("../pic/icon/click_cursor.svg"), pointer;
+  position: absolute;
+  left: 70%;
+  top: 12%;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.lg_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.lg_content h1 {
+  margin: 120px auto 70px auto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.18em;
+  text-align: center;
+}
+
+.lg_content form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lg_content input {
+  margin: 10px auto;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.lg_content input[type=checkbox] {
+  border: 1px solid #FFFFFF;
+  height: 20px;
+  width: 20px;
+}
+
+.lg_content input[type=checkbox]:after {
+  display: none;
+  content: '\2714';
+  color: white;
+  position: absolute;
+  font-size: 15px;
+  left: 4px;
+}
+
+.lg_content input[type=checkbox]:checked:after {
+  display: block;
+}
+
+.lg_content .account, .lg_content .psw {
+  border: 1px solid #FFFFFF;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 16px;
+  letter-spacing: 0.18em;
+  margin: 10px auto;
+  padding: 5px;
+  padding-left: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.lg_content .account:hover, .lg_content .psw:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.lg_content .account input, .lg_content .psw input {
+  background-color: transparent;
+  border: 0;
+  caret-color: white;
+  width: 320px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.checkPsw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "";
+          flex-direction: "";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  right: 40%;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.2em;
+}
+
+.checkPsw span {
+  margin-left: 10px;
+}
+
+#lg_submit {
+  cursor: url("../pic/icon/click_cursor.svg"), pointer;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  padding: 14px 0;
+  margin: 0 auto;
+  margin-top: 110px;
+  width: 280px;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.18em;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#lg_submit:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=login.css.map */
